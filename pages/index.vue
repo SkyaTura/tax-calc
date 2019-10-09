@@ -11,12 +11,11 @@
             label="Quantidade"
             type="number"
           ></v-text-field>
-          <v-currency-field
+          <v-text-field
             v-model="value"
-            v-bind="currency_config"
-            label="Quantidade"
+            label="Valor"
             type="number"
-          ></v-currency-field>
+          ></v-text-field>
         </v-card-text>
         <v-card-title class="headline">
           Resultado
