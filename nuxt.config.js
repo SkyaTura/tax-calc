@@ -43,6 +43,11 @@ export default {
    ** Nuxt.js modules
    */
   modules: ['@nuxtjs/pwa'],
+  manifest: {
+    name: 'Tax Calc',
+    short_name: 'Tax Calc',
+    lang: 'pt-BR'
+  },
   /*
    ** vuetify module configuration
    ** https://github.com/nuxt-community/vuetify-module
